@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/yoophi/lerna-monorepo-sandbox/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
   }
 }
