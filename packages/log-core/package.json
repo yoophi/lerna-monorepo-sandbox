@@ -1,0 +1,26 @@
+{
+  "name": "log-core",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "Pyunghyuk Yoo <yoophi@gmail.com>",
+  "homepage": "https://github.com/yoophi/lerna-monorepo-sandbox#readme",
+  "license": "ISC",
+  "main": "lib/log-core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoophi/lerna-monorepo-sandbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yoophi/lerna-monorepo-sandbox/issues"
+  }
+}
