@@ -1,5 +1,5 @@
 {
-  "name": "log-core",
+  "name": "@hello/log-core",
   "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Pyunghyuk Yoo <yoophi@gmail.com>",
@@ -13,15 +13,8 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yoophi/lerna-monorepo-sandbox.git"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/yoophi/lerna-monorepo-sandbox/issues"
   },
   "dependencies": {
     "chalk": "^4.1.0"

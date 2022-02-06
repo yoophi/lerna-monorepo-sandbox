@@ -1,11 +1,12 @@
 {
-  "name": "log-cli",
+  "name": "@hello/log-cli",
   "version": "0.1.0",
-  "description": "> TODO: description",
+  "description": "log-cli example",
   "author": "Pyunghyuk Yoo <yoophi@gmail.com>",
-  "homepage": "https://github.com/yoophi/lerna-monorepo-sandbox#readme",
-  "license": "ISC",
-  "main": "lib/log-cli.js",
+  "license": "MIT",
+  "bin": {
+    "log-cli": "lib/log-cli.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,17 +14,11 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yoophi/lerna-monorepo-sandbox.git"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/yoophi/lerna-monorepo-sandbox/issues"
-  },
   "dependencies": {
-    "commander": "^9.0.0"
+    "commander": "^9.0.0",
+    "@hello/log-core": "^0.1.0"
   }
 }
